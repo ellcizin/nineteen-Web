@@ -1,0 +1,180 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+*{
+  box-sizing: border-box;
+}
+.left{
+  width: 75%;
+  background: #FFF0F0;
+  padding: 0px 0 40px 60px;
+  overflow: hidden;
+}
+.left h1{
+  letter-spacing: 8px;
+  font-weight: normal;
+}
+.left h2{
+  letter-spacing: 5px;
+}
+.left .pra{
+  font-size: 18px;
+  color: hsla(0, 0%, 0%,0.9);
+  width: 78%;
+  text-align: justify;
+  margin-top: 30px;
+}
+.left .ptag{
+  font-size:21px;
+  width: 40%;
+ 
+
+}
+.left .color{
+  text-decoration: none;
+  color: orangered;
+  transition: 1s;
+}
+.left .color:hover{
+  text-decoration: underline;
+}
+.download{
+  width: 100%;
+  height: 130px;
+  background: brown;
+  padding: 55px;
+  margin-bottom: 100px;
+
+}
+.main{
+  position: relative;
+}
+.main .ptag1{
+  width: 49%;
+  display: inline-block;
+}
+.main .red{
+  width: 260px;
+  height: 260px;
+  background: brown;
+  padding: 45px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.main .red p{
+  color: white;
+}
+.left h3{
+  color: orangered;
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 50px;
+}
+.disign, .develop,
+.right, .promote{
+  width: 49%;
+  display: inline-block;
+}
+.download a{
+  color: white;
+  margin-right: 70px;
+}
+.portfolio{
+  overflow: hidden;
+}
+.portfolio img{
+width: 100%;
+float: left;
+}
+.img-left, .img-right{
+  width:50%;
+  float: left;
+}
+.blog table{
+  width: 100%;
+  text-align: left;
+}
+.blog table td{
+  font-size: 26px;
+  border-bottom: 3px solid white;
+  padding-top: 60px;
+}
+.blog table .nor{
+  font-size: small;
+  padding-top: 0;
+  text-align: right;
+}
+.pading{
+  padding: 60px 0;
+}
+.riht{
+  padding: 60px 50px;
+  height: 100vh;
+  width: 25%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+}
+.riht h3{
+  margin-bottom: 60px;
+}
+.riht a{
+  color: black;
+  transition: .7s;
+
+}
+.riht a:hover{
+  color: red;
+  text-decoration: underline;
+}
+.riht ul{
+  margin-top:60px;
+  padding: 0;
+}
+.riht ul li{
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.riht ul li a{
+  font-family: 'Times New Roman', Times, serif;
+  font-size:22px;
+  text-decoration: none;
+  color: rgba(0, 0, 0,0.6);
+}
+.riht ul a{
+  font-family: 'Times New Roman', Times, serif;
+  font-size:21px;
+  text-decoration: none;
+  color: rgba(0, 0, 0,0.6);
+  margin-left: 20px;
+}
+.name{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.name h1{
+  width: 65%;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  font-size: 133px;
+  margin: 0;
+  z-index: 1;
+  color: rgba(255, 0, 0,0.7);
+  font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 140px;
+  word-spacing: -2px;
+  letter-spacing: normal;
+  font-weight: bold;
+}
+.name img{
+  width: 50%;
+  position: absolute;
+  top: 60px;
+  right: 0;
+}
